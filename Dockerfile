@@ -1,9 +1,9 @@
 ###
 # Build:
-#   docker build -t wisdom/wisdom-framework .
+#   docker build -t cescoffier/wisdom-docker .
 #
 # Run:
-#   docker run -d  -p 9000:9000 wisdom/wisdom-framework
+#   docker run -d  -p 9000:9000 cescoffier/wisdom-docker
 #
 # Optional volumes:
 # - Logs: /wisdom/logs
@@ -28,7 +28,6 @@
 #
 ###
 FROM dockerfile/java:oracle-java8
-ENV WISDOM_VERSION 0.7-SNAPSHOT
 
 RUN mkdir -p /wisdom
 ADD target/wisdom /wisdom
