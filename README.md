@@ -1,6 +1,6 @@
 # What is Wisdom Framework
 
-[http://wisdom-framework.org)](Wisdom Framework) is a Java-based web stack enabling modularity and dynamism. Unlike others web stack, Wisdom let you build you web applications by assembling different _modules_ together, and thus dynamically. Wisdom provides a very efficient _watch mode_ making the development of such application very effective.
+[Wisdom Framework](http://wisdom-framework.org) is a Java-based web stack enabling modularity and dynamism. Unlike others web stack, Wisdom let you build you web applications by assembling different _modules_ together, and thus dynamically. Wisdom provides a very efficient _watch mode_ making the development of such application very effective.
 
 Wisdom is based on Apache Maven and OSGi, but makes it so easy that you don't even realize you are using them.
 
