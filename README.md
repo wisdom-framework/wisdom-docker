@@ -62,7 +62,7 @@ mvn wisdom:run -DwisdomDirectory=target/wisdom
 
 # Use it as a development environment
 
-As in the previous exmaple using Maven, to use this image as development environment, you may have to setup some _volumes_:
+As in the previous example using Maven, to use this image as development environment, you may have to setup some _volumes_:
 
 * `/wisdom/application` stores your application
 * `/wisdom/conf` stores the configuration
