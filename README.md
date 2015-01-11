@@ -102,7 +102,7 @@ mvn wisdom:run -DwisdomDirectory=~/tmp/wisdom
 The last use case of this image is to use it as a _base_ image for your own image:
 
 ```
-FROM wisdom/wisdom-framework
+FROM cescoffier/wisdom-docker
 
 COPY target/wisdom/application /wisdom/application
 COPY target/wisdom/conf /wisdom/conf
