@@ -31,7 +31,7 @@
     <packaging>wisdom</packaging>
 
     <properties>
-        <wisdom.version>0.7.0</wisdom.version>
+        <wisdom.version>0.8.0</wisdom.version>
     </properties>
 
     <dependencies>
