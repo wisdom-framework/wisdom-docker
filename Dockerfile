@@ -15,7 +15,7 @@
 #  -p 9000:9000 \
 #  -v `pwd`/target/wisdom/logs:/wisdom/logs \
 #  -v `pwd`/target/wisdom/application:/wisdom/application \
-#  wisdom/wisdom-framework
+#  cescoffier/wisdom-docker
 #
 # fish:
 # docker run -d \
@@ -23,7 +23,7 @@
 #  -v (pwd)/target/wisdom/logs:/wisdom/logs \
 #  -v (pwd)/target/wisdom/application:/wisdom/application \
 #  -v (pwd)/target/wisdom/conf:/wisdom/conf \
-#  wisdom/wisdom-framework
+#  cescoffier/wisdom-docker
 #
 #
 ###
