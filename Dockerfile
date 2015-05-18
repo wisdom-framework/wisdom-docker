@@ -27,7 +27,7 @@
 #
 #
 ###
-FROM dockerfile/java:oracle-java8
+FROM java:8
 
 RUN mkdir -p /wisdom
 ADD target/wisdom /wisdom
