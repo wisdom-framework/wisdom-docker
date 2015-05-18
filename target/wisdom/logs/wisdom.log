@@ -1,207 +1,189 @@
-19:50:25.478 744  [main] INFO  o.o.c.c.activators.DirectoryMonitor - Starting watcher service configured for [/Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/runtime, /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/application]
-19:50:25.481 747  [main] INFO  o.o.c.c.activators.DirectoryMonitor - Starting file monitoring for application
-19:50:25.497 763  [main] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.ow2.chameleon.core.activators.BundleDeployer@6fa51cd4 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/runtime.
-19:50:25.850 1116 [main] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.ow2.chameleon.core.activators.BundleDeployer@6fa51cd4 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/application.
-19:50:25.902 1168 [main] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.ow2.chameleon.core.activators.ConfigDeployer@24b6b8f6 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/runtime.
-19:50:25.903 1169 [main] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.ow2.chameleon.core.activators.ConfigDeployer@24b6b8f6 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/application.
-19:50:26.398 1664 [[iPOJO] pool-1-thread-1] WARN  o.o.u.log.impl.osgi.LoggerService - [WARNING] IPOJO-Main-Extender : 1 instances found in class org.wisdom.resources.AssetControllerConfiguration
-19:50:26.768 2034 [[iPOJO] pool-1-thread-1] INFO  o.w.c.ApplicationConfigurationImpl - Configuration file : /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/conf/application.conf
-19:50:26.769 2035 [[iPOJO] pool-1-thread-1] INFO  o.w.c.ApplicationConfigurationImpl - Enabling the watching of the configuration file
-19:50:26.770 2036 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.ow2.chameleon.core.activators.BundleDeployer@6fa51cd4 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/conf.
-19:50:26.770 2036 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.ow2.chameleon.core.activators.ConfigDeployer@24b6b8f6 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/conf.
-19:50:26.785 2051 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.configuration.ApplicationConfigurationImpl$ConfigurationDeployer@7f94512f for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/runtime.
-19:50:26.788 2054 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.configuration.ApplicationConfigurationImpl$ConfigurationDeployer@7f94512f for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/application.
-19:50:26.789 2055 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.configuration.ApplicationConfigurationImpl$ConfigurationDeployer@7f94512f for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/conf.
-19:50:26.793 2059 [[iPOJO] pool-1-thread-1] INFO  o.w.c.ApplicationConfigurationImpl - Base directory : /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom
-19:50:26.793 2059 [[iPOJO] pool-1-thread-1] INFO  o.w.c.ApplicationConfigurationImpl - Wisdom running in DEV
-19:50:26.849 2115 [[iPOJO] pool-1-thread-1] INFO  o.w.c.jackson.JacksonSingleton - Starting JSON and XML support services
-19:50:27.015 2281 [[iPOJO] pool-1-thread-1] INFO  o.w.c.jackson.JacksonSingleton - Using default (Wisdom) configuration of Jackson
-19:50:27.015 2281 [[iPOJO] pool-1-thread-1] INFO  o.w.c.jackson.JacksonSingleton - FAIL_ON_UNKNOWN_PROPERTIES is disabled
-19:50:27.336 2602 [[iPOJO] pool-1-thread-1] INFO  o.w.c.jackson.JacksonSingleton - Adding JSON module Hibernate-Validator-Module
-19:50:27.337 2603 [[iPOJO] pool-1-thread-1] INFO  o.w.c.jackson.JacksonSingleton - Using default (Wisdom) configuration of Jackson
-19:50:27.337 2603 [[iPOJO] pool-1-thread-1] INFO  o.w.c.jackson.JacksonSingleton - FAIL_ON_UNKNOWN_PROPERTIES is disabled
-19:50:27.527 2793 [[iPOJO] pool-1-thread-1] INFO  o.w.a.i.InternationalizationService - 4 resource bundle(s) loaded from org.wisdom.framework.documentation (54)
-19:50:27.563 2829 [[iPOJO] pool-1-thread-1] INFO  o.wisdom.resources.AssetController - Serving assets from bundles (/assets/) on /assets
-19:50:27.563 2829 [[iPOJO] pool-1-thread-1] INFO  o.wisdom.resources.AssetController - Serving assets from file system (assets) on /assets
-19:50:27.619 2885 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.resources.WebJarDeployer@43e61616 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/runtime.
-19:50:27.631 2897 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.resources.WebJarDeployer@43e61616 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/application.
-19:50:27.635 2901 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - Web Library found in bootstrap-3.1.1.jar : bootstrap-3.1.1
-19:50:27.683 2949 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - bootstrap unpacked to /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/chameleon-test-cache/bundle43/data/webjars/bootstrap-3.1.1/bootstrap/3.1.1
-19:50:27.686 2952 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - Web Library found in bootswatch-flatly-3.1.1.jar : bootswatch-flatly-3.1.1
-19:50:27.722 2988 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - bootswatch-flatly unpacked to /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/chameleon-test-cache/bundle43/data/webjars/bootswatch-flatly-3.1.1/bootswatch-flatly/3.1.1
-19:50:27.724 2990 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - Web Library found in font-awesome-4.0.3.jar : font-awesome-4.0.3
-19:50:27.745 3011 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - font-awesome unpacked to /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/chameleon-test-cache/bundle43/data/webjars/font-awesome-4.0.3/font-awesome/4.0.3
-19:50:27.747 3013 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - Web Library found in font-mfizz-1.2.jar : font-mfizz-1.2
-19:50:27.759 3025 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - font-mfizz unpacked to /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/chameleon-test-cache/bundle43/data/webjars/font-mfizz-1.2/font-mfizz/1.2
-19:50:27.760 3026 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - Web Library found in handlebars-1.3.0.jar : handlebars-1.3.0
-19:50:27.764 3030 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - handlebars unpacked to /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/chameleon-test-cache/bundle43/data/webjars/handlebars-1.3.0/handlebars/1.3.0
-19:50:27.765 3031 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - Web Library found in jquery-2.1.0-2.jar : jquery-2.1.0
-19:50:27.773 3039 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - jquery unpacked to /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/chameleon-test-cache/bundle43/data/webjars/jquery-2.1.0/jquery/2.1.0
-19:50:27.775 3041 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - Web Library found in jquery-mousewheel-3.1.9.jar : jquery-mousewheel-3.1.9
-19:50:27.777 3043 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - jquery-mousewheel unpacked to /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/chameleon-test-cache/bundle43/data/webjars/jquery-mousewheel-3.1.9/jquery-mousewheel/3.1.9
-19:50:27.779 3045 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - Web Library found in momentjs-2.5.1-1.jar : momentjs-2.5.1
-19:50:27.817 3083 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - momentjs unpacked to /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/chameleon-test-cache/bundle43/data/webjars/momentjs-2.5.1/momentjs/2.5.1
-19:50:27.819 3085 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - Web Library found in tablesorter-2.15.5.jar : tablesorter-2.15.5
-19:50:27.861 3127 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - tablesorter unpacked to /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/chameleon-test-cache/bundle43/data/webjars/tablesorter-2.15.5/tablesorter/2.15.5
-19:50:27.862 3128 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.resources.WebJarDeployer@43e61616 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/conf.
-19:50:27.953 3219 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf configuration: mode=HTML5, ttl=1
-19:50:28.087 3353 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.tracker.TemplateDeployer - Starting thymeleaf template deployer
-19:50:28.087 3353 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.tracker.TemplateDeployer - Template directory set to /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/templates
-19:50:28.089 3355 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.ow2.chameleon.core.activators.BundleDeployer@6fa51cd4 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/templates.
-19:50:28.089 3355 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.ow2.chameleon.core.activators.ConfigDeployer@24b6b8f6 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/templates.
-19:50:28.089 3355 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.configuration.ApplicationConfigurationImpl$ConfigurationDeployer@7f94512f for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/templates.
-19:50:28.090 3356 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.resources.WebJarDeployer@43e61616 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/templates.
-19:50:28.093 3359 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.template.thymeleaf.tracker.TemplateDeployer@318e9e92 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/runtime.
-19:50:28.094 3360 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.template.thymeleaf.tracker.TemplateDeployer@318e9e92 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/application.
-19:50:28.094 3360 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.template.thymeleaf.tracker.TemplateDeployer@318e9e92 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/conf.
-19:50:28.094 3360 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.template.thymeleaf.tracker.TemplateDeployer@318e9e92 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/templates.
-19:50:28.100 3366 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.i18n.I18nController@41c8760d
-19:50:28.132 3398 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.resources.WebJarController@1ff5d35b
-19:50:28.133 3399 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.resources.AssetController@4d2212d7
-19:50:28.143 3409 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for file:/Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/templates/error/404.thl.html
-19:50:28.151 3417 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for file:/Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/templates/error/500.thl.html
-19:50:28.159 3425 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for file:/Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/templates/error/pipeline.thl.html
-19:50:28.173 3439 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.tracker.TemplateTracker - Starting Thymeleaf template tracker
-19:50:28.186 3452 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.resources.AssetsSingleton@98f3e99
-19:50:28.203 3469 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://43.0:0/templates/assets/list.thl.html
-19:50:28.212 3478 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://54.0:0/templates/snippets/doc/content.thl.html
-19:50:28.218 3484 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://54.0:0/templates/snippets/doc/page.thl.html
-19:50:28.225 3491 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://54.0:0/templates/snippets/doc/welcome.thl.html
-19:50:28.233 3499 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://55.0:0/templates/monitor/bundles.thl.html
-19:50:28.239 3505 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://55.0:0/templates/monitor/controllers.thl.html
-19:50:28.246 3512 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://55.0:0/templates/monitor/dashboard.thl.html
-19:50:28.253 3519 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://55.0:0/templates/monitor/executors.thl.html
-19:50:28.259 3525 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://55.0:0/templates/monitor/ipojo.thl.html
-19:50:28.266 3532 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://55.0:0/templates/monitor/layout.thl.html
-19:50:28.272 3538 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://55.0:0/templates/monitor/loggers.thl.html
-19:50:28.278 3544 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://55.0:0/templates/monitor/login.thl.html
-19:50:28.285 3551 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://55.0:0/templates/monitor/routes.thl.html
-19:50:28.291 3557 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://55.0:0/templates/monitor/services.thl.html
-19:50:28.298 3564 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://55.0:0/templates/monitor/terminal.thl.html
-19:50:28.304 3570 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://55.0:0/templates/monitor/tiles.thl.html
-19:50:28.332 3598 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.executors.Creator - Creating executor wisdom-system-executor
-19:50:28.355 3621 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.executors.Creator - Creating scheduler wisdom-system-scheduler
-19:50:28.644 3910 [[iPOJO] pool-1-thread-1] INFO  o.w.f.vertx.WisdomVertxServer - Starting the vert.x server
-19:50:28.645 3911 [[iPOJO] pool-1-thread-1] INFO  o.w.f.vertx.WisdomVertxServer - Configuring default HTTP Server
-19:50:28.646 3912 [[iPOJO] pool-1-thread-1] INFO  server-default-http - Starting server default-http
-19:50:28.862 4128 [vert.x-eventloop-thread-0] INFO  server-default-http - Wisdom is going to serve HTTP requests on port 16270.
-19:50:28.880 4146 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from controllers.Documentation@7735f152
-19:50:28.913 4179 [[iPOJO] pool-1-thread-1] INFO  o.w.m.e.d.DashboardExtension - Registering JVM metrics
-19:50:28.937 4203 [[iPOJO] pool-1-thread-1] INFO  o.w.m.e.d.DashboardExtension - Registering HTTP metrics
-19:50:28.948 4214 [[iPOJO] pool-1-thread-1] INFO  o.w.m.e.d.DashboardExtension - Initializing Metrics JMX reporting
-19:50:28.963 4229 [[iPOJO] pool-1-thread-1] INFO  o.w.m.e.d.DashboardExtension - Registering the metric registry as service
-19:50:28.976 4242 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.monitor.extensions.dashboard.DashboardExtension@6336309c
-19:50:28.989 4255 [[iPOJO] pool-1-thread-1] INFO  o.w.c.jackson.JacksonSingleton - Adding JSON module org.wisdom.monitor.service.MonitorExtension
-19:50:29.092 4358 [[iPOJO] pool-1-thread-1] INFO  o.w.c.jackson.JacksonSingleton - Using default (Wisdom) configuration of Jackson
-19:50:29.092 4358 [[iPOJO] pool-1-thread-1] INFO  o.w.c.jackson.JacksonSingleton - FAIL_ON_UNKNOWN_PROPERTIES is disabled
-19:50:29.093 4359 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.monitor.MonitorCenter@19c00420
-19:50:29.127 4393 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.monitor.extensions.executors.ExecutorExtension@6b260028
-19:50:29.143 4409 [[iPOJO] pool-1-thread-1] INFO  o.w.c.jackson.JacksonSingleton - Adding JSON module ManagedExecutorService Module
-19:50:29.145 4411 [[iPOJO] pool-1-thread-1] INFO  o.w.c.jackson.JacksonSingleton - Using default (Wisdom) configuration of Jackson
-19:50:29.145 4411 [[iPOJO] pool-1-thread-1] INFO  o.w.c.jackson.JacksonSingleton - FAIL_ON_UNKNOWN_PROPERTIES is disabled
-19:50:29.158 4424 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.monitor.extensions.ipojo.IPOJOController@390cddd3
-19:50:29.173 4439 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.monitor.extensions.logger.LoggerExtension@45c7f0bf
-19:50:29.187 4453 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.monitor.extensions.osgi.BundleMonitorExtension@7a504867
-19:50:29.204 4470 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.monitor.extensions.osgi.ServiceMonitorExtension@75baed76
-19:50:29.233 4499 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.monitor.extensions.terminal.WisitShellController@18845ac2
-19:50:29.255 4521 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.monitor.extensions.wisdom.ControllerExtension@1df1ab10
-19:50:29.270 4536 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.monitor.extensions.wisdom.RouterExtension@5bd9e0e0
-19:50:30.342 5608 [main] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://56.0:0/templates/welcome.thl.html
-19:50:30.350 5616 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from sample.WelcomeController@82e5cf2
-19:50:33.002 8268 [vert.x-eventloop-thread-0] WARN  o.wisdom.resources.WebJarController - 2 WebJars provide 'css/bootstrap.css' - returning the one from bootstrap-3.1.1
-19:50:33.382 8648 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [477:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.385 8651 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [609:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.390 8656 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [742:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.390 8656 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [747:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.391 8657 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [752:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.396 8662 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [929:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.399 8665 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [1087:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.404 8670 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [1245:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.416 8682 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [1585:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.431 8697 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [1929:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.432 8698 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [1984:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.455 8721 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [3074:17] Error in expression; ':' found after identifier "progid".
-19:50:33.456 8722 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [3121:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.467 8733 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [3534:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.468 8734 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [3552:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.469 8735 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [3599:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.470 8736 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [3620:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.471 8737 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [3648:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.471 8737 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [3653:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.472 8738 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [3670:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.474 8740 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [3699:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.474 8740 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [3712:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.475 8741 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [3724:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.476 8742 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [3750:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.476 8742 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [3780:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.477 8743 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [3793:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.478 8744 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [3815:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.479 8745 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [3831:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.480 8746 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [3850:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.481 8747 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [3885:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.481 8747 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [3890:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.483 8749 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [3930:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.485 8751 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [3995:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.488 8754 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [4078:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.496 8762 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [4388:15] Error in @media rule. (Invalid token "and". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
-19:50:33.496 8762 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS warning: 'http://localhost:16270/libs/css/bootstrap.css' [4388:15] Ignoring the whole rule.
-19:50:33.519 8785 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [5179:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.519 8785 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [5192:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.525 8791 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [5478:17] Error in expression; ':' found after identifier "progid".
-19:50:33.526 8792 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [5486:17] Error in expression; ':' found after identifier "progid".
-19:50:33.528 8794 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [5572:15] Error in @media rule. (Invalid token "and". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
-19:50:33.528 8794 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS warning: 'http://localhost:16270/libs/css/bootstrap.css' [5572:15] Ignoring the whole rule.
-19:50:33.529 8795 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [5682:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.530 8796 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [5697:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.530 8796 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [5712:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.531 8797 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [5727:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.532 8798 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [5742:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.532 8798 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [5747:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.533 8799 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [5752:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.533 8799 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:16270/libs/css/bootstrap.css' [5757:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-19:50:33.783 9049 [main] INFO  org.ow2.chameleon - Stopping Chameleon
-19:50:33.794 9060 [main] WARN  o.o.u.log.impl.osgi.LoggerService - [WARNING]  : [org.wisdom.template.thymeleaf.tracker.TemplateDeployer-0] The dependency is not optional, however no service object can be injected in watcher -> org.ow2.chameleon.core.services.Watcher
-19:50:38.154 13420 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from sample.WelcomeController@82e5cf2
-19:50:38.167 13433 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://56.0:0/templates/welcome.thl.html from org.wisdom.sample.wisdom.sample.application
-19:50:38.171 13437 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from org.wisdom.monitor.MonitorCenter@19c00420
-19:50:38.176 13442 [FelixStartLevel] INFO  o.w.c.jackson.JacksonSingleton - Removing Jackson module org.wisdom.monitor.service.MonitorExtension
-19:50:38.176 13442 [FelixStartLevel] INFO  o.w.c.jackson.JacksonSingleton - Using default (Wisdom) configuration of Jackson
-19:50:38.176 13442 [FelixStartLevel] INFO  o.w.c.jackson.JacksonSingleton - FAIL_ON_UNKNOWN_PROPERTIES is disabled
-19:50:38.182 13448 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from org.wisdom.monitor.extensions.dashboard.DashboardExtension@6336309c
-19:50:38.189 13455 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from org.wisdom.monitor.extensions.executors.ExecutorExtension@6b260028
-19:50:38.217 13483 [FelixStartLevel] INFO  o.w.c.jackson.JacksonSingleton - Removing Jackson module ManagedExecutorService Module
-19:50:38.218 13484 [FelixStartLevel] INFO  o.w.c.jackson.JacksonSingleton - Using default (Wisdom) configuration of Jackson
-19:50:38.218 13484 [FelixStartLevel] INFO  o.w.c.jackson.JacksonSingleton - FAIL_ON_UNKNOWN_PROPERTIES is disabled
-19:50:38.224 13490 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from org.wisdom.monitor.extensions.ipojo.IPOJOController@390cddd3
-19:50:38.234 13500 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from org.wisdom.monitor.extensions.logger.LoggerExtension@45c7f0bf
-19:50:38.245 13511 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from org.wisdom.monitor.extensions.osgi.BundleMonitorExtension@7a504867
-19:50:38.259 13525 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from org.wisdom.monitor.extensions.osgi.ServiceMonitorExtension@75baed76
-19:50:38.275 13541 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from org.wisdom.monitor.extensions.terminal.WisitShellController@18845ac2
-19:50:38.286 13552 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from org.wisdom.monitor.extensions.wisdom.ControllerExtension@1df1ab10
-19:50:38.297 13563 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from org.wisdom.monitor.extensions.wisdom.RouterExtension@5bd9e0e0
-19:50:38.354 13620 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://55.0:0/templates/monitor/bundles.thl.html from org.wisdom.framework.wisdom.monitor
-19:50:38.357 13623 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://55.0:0/templates/monitor/controllers.thl.html from org.wisdom.framework.wisdom.monitor
-19:50:38.360 13626 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://55.0:0/templates/monitor/dashboard.thl.html from org.wisdom.framework.wisdom.monitor
-19:50:38.363 13629 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://55.0:0/templates/monitor/executors.thl.html from org.wisdom.framework.wisdom.monitor
-19:50:38.365 13631 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://55.0:0/templates/monitor/ipojo.thl.html from org.wisdom.framework.wisdom.monitor
-19:50:38.367 13633 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://55.0:0/templates/monitor/layout.thl.html from org.wisdom.framework.wisdom.monitor
-19:50:38.369 13635 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://55.0:0/templates/monitor/loggers.thl.html from org.wisdom.framework.wisdom.monitor
-19:50:38.371 13637 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://55.0:0/templates/monitor/login.thl.html from org.wisdom.framework.wisdom.monitor
-19:50:38.373 13639 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://55.0:0/templates/monitor/routes.thl.html from org.wisdom.framework.wisdom.monitor
-19:50:38.375 13641 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://55.0:0/templates/monitor/services.thl.html from org.wisdom.framework.wisdom.monitor
-19:50:38.378 13644 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://55.0:0/templates/monitor/terminal.thl.html from org.wisdom.framework.wisdom.monitor
-19:50:38.380 13646 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://55.0:0/templates/monitor/tiles.thl.html from org.wisdom.framework.wisdom.monitor
-19:50:38.385 13651 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from controllers.Documentation@7735f152
-19:50:38.395 13661 [FelixStartLevel] INFO  o.w.a.i.InternationalizationService - Bundle org.wisdom.framework.documentation (54) does not offer the 4 resource bundle(s) anymore
-19:50:38.395 13661 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://54.0:0/templates/snippets/doc/content.thl.html from org.wisdom.framework.documentation
-19:50:38.397 13663 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://54.0:0/templates/snippets/doc/page.thl.html from org.wisdom.framework.documentation
-19:50:38.399 13665 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://54.0:0/templates/snippets/doc/welcome.thl.html from org.wisdom.framework.documentation
-19:50:38.414 13680 [FelixStartLevel] INFO  o.w.f.vertx.WisdomVertxServer - Stopping the vert.x server
-19:50:38.418 13684 [vert.x-eventloop-thread-0] INFO  server-default-http - The server 'default-http' has been stopped (bound port: 16270)
-19:50:38.479 13745 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://43.0:0/templates/assets/list.thl.html from org.wisdom-framework.resource-controller
-19:50:38.481 13747 [FelixStartLevel] WARN  o.o.u.log.impl.osgi.LoggerService - [WARNING]  : [org.wisdom.template.thymeleaf.tracker.TemplateTracker-0] The dependency is not optional, however no service object can be injected in engine -> org.wisdom.template.thymeleaf.ThymeleafTemplateCollector
-19:50:38.491 13757 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from org.wisdom.resources.AssetsSingleton@98f3e99
-19:50:38.598 13864 [FelixStartLevel] INFO  o.w.c.jackson.JacksonSingleton - Removing Jackson module Hibernate-Validator-Module
-19:50:38.598 13864 [FelixStartLevel] INFO  o.w.c.jackson.JacksonSingleton - Using default (Wisdom) configuration of Jackson
-19:50:38.599 13865 [FelixStartLevel] INFO  o.w.c.jackson.JacksonSingleton - FAIL_ON_UNKNOWN_PROPERTIES is disabled
-19:50:38.769 14035 [main] INFO  org.ow2.chameleon - Chameleon stopped
+08:58:24.277 771  [main] INFO  o.o.c.c.activators.DirectoryMonitor - Starting watcher service configured for [/Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/runtime, /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/application]
+08:58:24.282 776  [main] INFO  o.o.c.c.activators.DirectoryMonitor - Starting file monitoring for application
+08:58:24.309 803  [main] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.ow2.chameleon.core.activators.BundleDeployer@68c9133c for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/runtime.
+08:58:24.867 1361 [main] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.ow2.chameleon.core.activators.BundleDeployer@68c9133c for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/application.
+08:58:24.922 1416 [main] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.ow2.chameleon.core.activators.ConfigDeployer@654d8173 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/runtime.
+08:58:24.923 1417 [main] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.ow2.chameleon.core.activators.ConfigDeployer@654d8173 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/application.
+08:58:25.286 1780 [[iPOJO] pool-1-thread-1] WARN  o.o.u.log.impl.osgi.LoggerService - [WARNING] IPOJO-Main-Extender : 1 instances found in class org.wisdom.resources.AssetControllerConfiguration
+08:58:26.410 2904 [[iPOJO] pool-1-thread-1] INFO  o.w.c.ApplicationConfigurationImpl - Enabling the watching of the configuration file
+08:58:26.411 2905 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.ow2.chameleon.core.activators.BundleDeployer@68c9133c for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/conf.
+08:58:26.412 2906 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.ow2.chameleon.core.activators.ConfigDeployer@654d8173 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/conf.
+08:58:26.423 2917 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.configuration.ApplicationConfigurationImpl$ConfigurationDeployer@6897b35c for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/runtime.
+08:58:26.425 2919 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.configuration.ApplicationConfigurationImpl$ConfigurationDeployer@6897b35c for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/application.
+08:58:26.426 2920 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.configuration.ApplicationConfigurationImpl$ConfigurationDeployer@6897b35c for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/conf.
+08:58:26.429 2923 [[iPOJO] pool-1-thread-1] INFO  o.w.c.ApplicationConfigurationImpl - Configuration file : /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/conf/application.conf
+08:58:26.430 2924 [[iPOJO] pool-1-thread-1] INFO  o.w.c.ApplicationConfigurationImpl - Base directory : /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom
+08:58:26.430 2924 [[iPOJO] pool-1-thread-1] INFO  o.w.c.ApplicationConfigurationImpl - Wisdom running in DEV
+08:58:26.484 2978 [[iPOJO] pool-1-thread-1] INFO  o.w.c.jackson.JacksonSingleton - Starting JSON and XML support services
+08:58:26.881 3375 [[iPOJO] pool-1-thread-1] INFO  o.w.c.jackson.JacksonSingleton - Adding JSON module Hibernate-Validator-Module
+08:58:27.076 3570 [[iPOJO] pool-1-thread-1] INFO  o.w.a.i.InternationalizationService - 4 resource bundle(s) loaded from org.wisdom.framework.documentation (56)
+08:58:27.250 3744 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.resources.WebJarDeployer@711db567 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/runtime.
+08:58:27.260 3754 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.resources.WebJarDeployer@711db567 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/application.
+08:58:27.263 3757 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - Web Library found in bootstrap-3.1.1.jar : bootstrap-3.1.1
+08:58:27.306 3800 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - bootstrap unpacked to /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/chameleon-test-cache/bundle44/data/webjars/bootstrap-3.1.1/bootstrap/3.1.1
+08:58:27.308 3802 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - Web Library found in bootswatch-flatly-3.1.1.jar : bootswatch-flatly-3.1.1
+08:58:27.341 3835 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - bootswatch-flatly unpacked to /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/chameleon-test-cache/bundle44/data/webjars/bootswatch-flatly-3.1.1/bootswatch-flatly/3.1.1
+08:58:27.343 3837 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - Web Library found in font-awesome-4.0.3.jar : font-awesome-4.0.3
+08:58:27.361 3855 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - font-awesome unpacked to /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/chameleon-test-cache/bundle44/data/webjars/font-awesome-4.0.3/font-awesome/4.0.3
+08:58:27.362 3856 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - Web Library found in font-mfizz-1.2.jar : font-mfizz-1.2
+08:58:27.372 3866 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - font-mfizz unpacked to /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/chameleon-test-cache/bundle44/data/webjars/font-mfizz-1.2/font-mfizz/1.2
+08:58:27.373 3867 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - Web Library found in handlebars-1.3.0.jar : handlebars-1.3.0
+08:58:27.377 3871 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - handlebars unpacked to /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/chameleon-test-cache/bundle44/data/webjars/handlebars-1.3.0/handlebars/1.3.0
+08:58:27.378 3872 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - Web Library found in jquery-2.1.0-2.jar : jquery-2.1.0
+08:58:27.390 3884 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - jquery unpacked to /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/chameleon-test-cache/bundle44/data/webjars/jquery-2.1.0/jquery/2.1.0
+08:58:27.391 3885 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - Web Library found in jquery-mousewheel-3.1.9.jar : jquery-mousewheel-3.1.9
+08:58:27.393 3887 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - jquery-mousewheel unpacked to /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/chameleon-test-cache/bundle44/data/webjars/jquery-mousewheel-3.1.9/jquery-mousewheel/3.1.9
+08:58:27.394 3888 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - Web Library found in momentjs-2.5.1-1.jar : momentjs-2.5.1
+08:58:27.427 3921 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - momentjs unpacked to /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/chameleon-test-cache/bundle44/data/webjars/momentjs-2.5.1/momentjs/2.5.1
+08:58:27.429 3923 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - Web Library found in tablesorter-2.15.5.jar : tablesorter-2.15.5
+08:58:27.457 3951 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.resources.WebJarDeployer - tablesorter unpacked to /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/chameleon-test-cache/bundle44/data/webjars/tablesorter-2.15.5/tablesorter/2.15.5
+08:58:27.458 3952 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.resources.WebJarDeployer@711db567 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/conf.
+08:58:27.540 4034 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf configuration: mode=HTML5, ttl=1
+08:58:27.675 4169 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.tracker.TemplateDeployer - Starting thymeleaf template deployer
+08:58:27.676 4170 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.tracker.TemplateDeployer - Template directory set to /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/templates
+08:58:27.678 4172 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.ow2.chameleon.core.activators.BundleDeployer@68c9133c for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/templates.
+08:58:27.678 4172 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.ow2.chameleon.core.activators.ConfigDeployer@654d8173 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/templates.
+08:58:27.680 4174 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.configuration.ApplicationConfigurationImpl$ConfigurationDeployer@6897b35c for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/templates.
+08:58:27.680 4174 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.resources.WebJarDeployer@711db567 for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/templates.
+08:58:27.683 4177 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.template.thymeleaf.tracker.TemplateDeployer@4f9a076d for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/runtime.
+08:58:27.684 4178 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.template.thymeleaf.tracker.TemplateDeployer@4f9a076d for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/application.
+08:58:27.685 4179 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.template.thymeleaf.tracker.TemplateDeployer@4f9a076d for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/conf.
+08:58:27.686 4180 [[iPOJO] pool-1-thread-1] INFO  o.o.c.c.activators.DirectoryMonitor - Opening deployer org.wisdom.template.thymeleaf.tracker.TemplateDeployer@4f9a076d for directory /Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/templates.
+08:58:27.692 4186 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.resources.WebJarController@5dc2b2fb
+08:58:27.697 4191 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.resources.AssetController@458c60df
+08:58:27.700 4194 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.i18n.I18nController@3c73b60b
+08:58:27.723 4217 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for file:/Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/templates/error/404.thl.html
+08:58:27.731 4225 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for file:/Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/templates/error/500.thl.html
+08:58:27.738 4232 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for file:/Users/clement/Projects/wisdom/wisdom-docker/target/wisdom/templates/error/pipeline.thl.html
+08:58:27.747 4241 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.tracker.TemplateTracker - Starting Thymeleaf template tracker
+08:58:27.791 4285 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.resources.AssetsSingleton@44441032
+08:58:27.797 4291 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://44.0:0/templates/assets/list.thl.html
+08:58:27.818 4312 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://56.0:0/templates/snippets/doc/content.thl.html
+08:58:27.823 4317 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://56.0:0/templates/snippets/doc/page.thl.html
+08:58:27.828 4322 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://56.0:0/templates/snippets/doc/welcome.thl.html
+08:58:27.834 4328 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://57.0:0/templates/monitor/bundles.thl.html
+08:58:27.839 4333 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://57.0:0/templates/monitor/controllers.thl.html
+08:58:27.843 4337 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://57.0:0/templates/monitor/dashboard.thl.html
+08:58:27.847 4341 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://57.0:0/templates/monitor/executors.thl.html
+08:58:27.851 4345 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://57.0:0/templates/monitor/ipojo.thl.html
+08:58:27.855 4349 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://57.0:0/templates/monitor/layout.thl.html
+08:58:27.861 4355 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://57.0:0/templates/monitor/loggers.thl.html
+08:58:27.866 4360 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://57.0:0/templates/monitor/login.thl.html
+08:58:27.871 4365 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://57.0:0/templates/monitor/routes.thl.html
+08:58:27.876 4370 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://57.0:0/templates/monitor/services.thl.html
+08:58:27.881 4375 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://57.0:0/templates/monitor/terminal.thl.html
+08:58:27.887 4381 [[iPOJO] pool-1-thread-1] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://57.0:0/templates/monitor/tiles.thl.html
+08:58:27.919 4413 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.executors.Creator - Creating executor wisdom-system-executor
+08:58:27.931 4425 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.executors.Creator - Creating scheduler wisdom-system-scheduler
+08:58:28.187 4681 [[iPOJO] pool-1-thread-1] INFO  o.w.f.vertx.WisdomVertxServer - Starting the vert.x server
+08:58:28.265 4759 [vert.x-eventloop-thread-0] INFO  o.w.f.vertx.WisdomVertxServer - Wisdom is going to serve HTTP requests on port 10454.
+08:58:28.300 4794 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from controllers.Documentation@590a789f
+08:58:28.322 4816 [[iPOJO] pool-1-thread-1] INFO  o.w.m.e.d.DashboardExtension - Registering JVM metrics
+08:58:28.349 4843 [[iPOJO] pool-1-thread-1] INFO  o.w.m.e.d.DashboardExtension - Registering HTTP metrics
+08:58:28.363 4857 [[iPOJO] pool-1-thread-1] INFO  o.w.m.e.d.DashboardExtension - Initializing Metrics JMX reporting
+08:58:28.374 4868 [[iPOJO] pool-1-thread-1] INFO  o.w.m.e.d.DashboardExtension - Registering the metric registry as service
+08:58:28.397 4891 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.monitor.extensions.dashboard.DashboardExtension@5a004142
+08:58:28.406 4900 [[iPOJO] pool-1-thread-1] INFO  o.w.c.jackson.JacksonSingleton - Adding JSON module org.wisdom.monitor.service.MonitorExtension
+08:58:28.521 5015 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.monitor.MonitorCenter@4a109a7f
+08:58:28.545 5039 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.monitor.extensions.executors.ExecutorExtension@2605bfca
+08:58:28.551 5045 [[iPOJO] pool-1-thread-1] INFO  o.w.c.jackson.JacksonSingleton - Adding JSON module ManagedExecutorService Module
+08:58:28.570 5064 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.monitor.extensions.ipojo.IPOJOController@906b884
+08:58:28.583 5077 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.monitor.extensions.logger.LoggerExtension@1b1d067b
+08:58:28.599 5093 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.monitor.extensions.osgi.BundleMonitorExtension@47582671
+08:58:28.619 5113 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.monitor.extensions.osgi.ServiceMonitorExtension@5bfefa9d
+08:58:28.649 5143 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.monitor.extensions.terminal.WisitShellController@1b475b1
+08:58:28.675 5169 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.monitor.extensions.wisdom.ControllerExtension@3a81e1a2
+08:58:28.693 5187 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from org.wisdom.monitor.extensions.wisdom.RouterExtension@50021b4a
+08:58:29.791 6285 [main] INFO  o.w.t.t.ThymeleafTemplateCollector - Thymeleaf template added for bundle://58.0:0/templates/welcome.thl.html
+08:58:29.818 6312 [[iPOJO] pool-1-thread-1] INFO  org.wisdom.router.RequestRouter - Adding routes from sample.WelcomeController@4ef55219
+08:58:32.824 9318 [vert.x-eventloop-thread-0] WARN  o.wisdom.resources.WebJarController - 2 WebJars provide 'css/bootstrap.css' - returning the one from bootstrap-3.1.1
+08:58:33.214 9708 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [477:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.217 9711 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [609:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.221 9715 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [742:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.222 9716 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [747:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.222 9716 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [752:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.228 9722 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [929:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.231 9725 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [1087:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.236 9730 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [1245:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.253 9747 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [1585:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.272 9766 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [1929:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.274 9768 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [1984:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.306 9800 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [3074:17] Error in expression; ':' found after identifier "progid".
+08:58:33.308 9802 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [3121:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.322 9816 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [3534:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.323 9817 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [3552:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.325 9819 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [3599:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.326 9820 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [3620:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.326 9820 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [3648:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.327 9821 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [3653:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.328 9822 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [3670:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.329 9823 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [3699:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.329 9823 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [3712:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.330 9824 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [3724:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.331 9825 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [3750:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.333 9827 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [3780:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.334 9828 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [3793:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.334 9828 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [3815:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.335 9829 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [3831:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.337 9831 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [3850:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.338 9832 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [3885:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.339 9833 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [3890:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.340 9834 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [3930:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.343 9837 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [3995:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.345 9839 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [4078:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.353 9847 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [4388:15] Error in @media rule. (Invalid token "and". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
+08:58:33.354 9848 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS warning: 'http://localhost:10454/libs/css/bootstrap.css' [4388:15] Ignoring the whole rule.
+08:58:33.377 9871 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [5179:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.377 9871 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [5192:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.383 9877 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [5478:17] Error in expression; ':' found after identifier "progid".
+08:58:33.384 9878 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [5486:17] Error in expression; ':' found after identifier "progid".
+08:58:33.386 9880 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [5572:15] Error in @media rule. (Invalid token "and". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
+08:58:33.386 9880 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS warning: 'http://localhost:10454/libs/css/bootstrap.css' [5572:15] Ignoring the whole rule.
+08:58:33.388 9882 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [5682:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.388 9882 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [5697:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.389 9883 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [5712:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.389 9883 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [5727:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.389 9883 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [5742:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.390 9884 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [5747:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.390 9884 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [5752:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.390 9884 [main] WARN  c.g.htmlunit.DefaultCssErrorHandler - CSS error: 'http://localhost:10454/libs/css/bootstrap.css' [5757:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
+08:58:33.654 10148 [main] INFO  org.ow2.chameleon - Stopping Chameleon
+08:58:33.665 10159 [main] WARN  o.o.u.log.impl.osgi.LoggerService - [WARNING]  : [org.wisdom.template.thymeleaf.tracker.TemplateDeployer-0] The dependency is not optional, however no service object can be injected in watcher -> org.ow2.chameleon.core.services.Watcher
+08:58:35.705 12199 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://58.0:0/templates/welcome.thl.html from org.wisdom.sample.wisdom.sample.application
+08:58:35.711 12205 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from sample.WelcomeController@4ef55219
+08:58:35.724 12218 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://57.0:0/templates/monitor/bundles.thl.html from org.wisdom.framework.wisdom.monitor
+08:58:35.734 12228 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from org.wisdom.monitor.extensions.osgi.BundleMonitorExtension@47582671
+08:58:35.736 12230 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://57.0:0/templates/monitor/controllers.thl.html from org.wisdom.framework.wisdom.monitor
+08:58:35.745 12239 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from org.wisdom.monitor.extensions.wisdom.ControllerExtension@3a81e1a2
+08:58:35.746 12240 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://57.0:0/templates/monitor/dashboard.thl.html from org.wisdom.framework.wisdom.monitor
+08:58:35.754 12248 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from org.wisdom.monitor.extensions.dashboard.DashboardExtension@5a004142
+08:58:35.766 12260 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from org.wisdom.monitor.extensions.executors.ExecutorExtension@2605bfca
+08:58:35.776 12270 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://57.0:0/templates/monitor/executors.thl.html from org.wisdom.framework.wisdom.monitor
+08:58:35.780 12274 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://57.0:0/templates/monitor/ipojo.thl.html from org.wisdom.framework.wisdom.monitor
+08:58:35.791 12285 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from org.wisdom.monitor.extensions.ipojo.IPOJOController@906b884
+08:58:35.793 12287 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://57.0:0/templates/monitor/layout.thl.html from org.wisdom.framework.wisdom.monitor
+08:58:35.796 12290 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://57.0:0/templates/monitor/loggers.thl.html from org.wisdom.framework.wisdom.monitor
+08:58:35.811 12305 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from org.wisdom.monitor.extensions.logger.LoggerExtension@1b1d067b
+08:58:35.812 12306 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://57.0:0/templates/monitor/login.thl.html from org.wisdom.framework.wisdom.monitor
+08:58:35.821 12315 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from org.wisdom.monitor.MonitorCenter@4a109a7f
+08:58:35.822 12316 [FelixStartLevel] INFO  o.w.c.jackson.JacksonSingleton - Removing Jackson module org.wisdom.monitor.service.MonitorExtension
+08:58:35.823 12317 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://57.0:0/templates/monitor/routes.thl.html from org.wisdom.framework.wisdom.monitor
+08:58:35.833 12327 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from org.wisdom.monitor.extensions.wisdom.RouterExtension@50021b4a
+08:58:35.835 12329 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://57.0:0/templates/monitor/services.thl.html from org.wisdom.framework.wisdom.monitor
+08:58:35.844 12338 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from org.wisdom.monitor.extensions.osgi.ServiceMonitorExtension@5bfefa9d
+08:58:35.845 12339 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://57.0:0/templates/monitor/terminal.thl.html from org.wisdom.framework.wisdom.monitor
+08:58:35.854 12348 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from org.wisdom.monitor.extensions.terminal.WisitShellController@1b475b1
+08:58:35.855 12349 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://57.0:0/templates/monitor/tiles.thl.html from org.wisdom.framework.wisdom.monitor
+08:58:35.874 12368 [FelixStartLevel] INFO  o.w.c.jackson.JacksonSingleton - Removing Jackson module ManagedExecutorService Module
+08:58:35.956 12450 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://56.0:0/templates/snippets/doc/content.thl.html from org.wisdom.framework.documentation
+08:58:35.958 12452 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://56.0:0/templates/snippets/doc/page.thl.html from org.wisdom.framework.documentation
+08:58:35.960 12454 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://56.0:0/templates/snippets/doc/welcome.thl.html from org.wisdom.framework.documentation
+08:58:35.963 12457 [FelixStartLevel] INFO  o.w.a.i.InternationalizationService - Bundle org.wisdom.framework.documentation (56) does not offer the 4 resource bundle(s) anymore
+08:58:35.968 12462 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from controllers.Documentation@590a789f
+08:58:35.991 12485 [FelixStartLevel] INFO  o.w.f.vertx.WisdomVertxServer - Stopping the vert.x server
+08:58:35.997 12491 [vert.x-eventloop-thread-0] INFO  o.w.f.vertx.WisdomVertxServer - The HTTP server has been stopped
+08:58:36.068 12562 [FelixStartLevel] INFO  o.w.t.t.tracker.TemplateTracker - Thymeleaf template deleted for bundle://44.0:0/templates/assets/list.thl.html from org.wisdom-framework.resource-controller
+08:58:36.070 12564 [FelixStartLevel] WARN  o.o.u.log.impl.osgi.LoggerService - [WARNING]  : [org.wisdom.template.thymeleaf.tracker.TemplateTracker-0] The dependency is not optional, however no service object can be injected in engine -> org.wisdom.template.thymeleaf.ThymeleafTemplateCollector
+08:58:36.083 12577 [FelixStartLevel] INFO  org.wisdom.router.RequestRouter - Removing routes from org.wisdom.resources.AssetsSingleton@44441032
+08:58:36.196 12690 [FelixStartLevel] INFO  o.w.c.jackson.JacksonSingleton - Removing Jackson module Hibernate-Validator-Module
+08:58:36.404 12898 [main] INFO  org.ow2.chameleon - Chameleon stopped
