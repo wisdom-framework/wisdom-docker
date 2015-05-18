@@ -17,7 +17,7 @@ The docker image provided by this repository let you:
 The image runs a sample application, the Wisdom monitor and also embeds the documentation. Run it using:
 
 ```
-docker run -d  -p 9000:9000 cescoffier/wisdom-docker
+docker run -d  -p 9000:9000 wisdom/wisdom-framework
 ```
 
 Then, you can access:
@@ -49,7 +49,7 @@ docker run -d \
   -v `pwd`/target/wisdom/logs:/wisdom/logs \
   -v `pwd`/target/wisdom/conf:/wisdom/conf \
   -v `pwd`/target/wisdom/application:/wisdom/application \
-  cescoffier/wisdom-docker
+  wisdom/wisdom-framework
 ```
 
 Your application is now running.
@@ -88,7 +88,7 @@ docker run -d \
 -v ~/tmp/logs:/wisdom/logs \
 -v ~/tmp/target/wisdom/conf:/wisdom/conf \
 -v ~/tmp/target/wisdom/application:/wisdom/application \
-cescoffier/wisdom-docker
+wisdom/wisdom-framework
 ```
 
 To get the _watch mode_ benefits, launch your project using:
@@ -102,7 +102,7 @@ mvn wisdom:run -DwisdomDirectory=~/tmp/wisdom
 The last use case of this image is to use it as a _base_ image for your own image:
 
 ```
-FROM cescoffier/wisdom-docker
+FROM wisdom/wisdom-framework
 
 COPY target/wisdom/application /wisdom/application
 COPY target/wisdom/conf /wisdom/conf

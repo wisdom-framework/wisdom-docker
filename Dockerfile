@@ -1,9 +1,9 @@
 ###
 # Build:
-#   docker build -t cescoffier/wisdom-docker .
+#   docker build -t wisdom/wisdom-framework .
 #
 # Run:
-#   docker run -d  -p 9000:9000 cescoffier/wisdom-docker
+#   docker run -d  -p 9000:9000 wisdom/wisdom-framework
 #
 # Optional volumes:
 # - Logs: /wisdom/logs
@@ -15,7 +15,7 @@
 #  -p 9000:9000 \
 #  -v `pwd`/target/wisdom/logs:/wisdom/logs \
 #  -v `pwd`/target/wisdom/application:/wisdom/application \
-#  cescoffier/wisdom-docker
+#  wisdom/wisdom-framework
 #
 # fish:
 # docker run -d \
@@ -23,7 +23,7 @@
 #  -v (pwd)/target/wisdom/logs:/wisdom/logs \
 #  -v (pwd)/target/wisdom/application:/wisdom/application \
 #  -v (pwd)/target/wisdom/conf:/wisdom/conf \
-#  cescoffier/wisdom-docker
+#  wisdom/wisdom-framework
 #
 #
 ###
