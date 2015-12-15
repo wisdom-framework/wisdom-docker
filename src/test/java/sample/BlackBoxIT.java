@@ -33,7 +33,7 @@ public class BlackBoxIT extends WisdomBlackBoxTest {
 
     @Test
     public void testThatTheWelcomePageIsServed() throws Exception {
-        HttpResponse<Document> page = get("/").asHtml();
+        HttpResponse<Document> page = get("/samples").asHtml();
         assertThat(page.body().title()).isEqualTo("Welcome to Wisdom");
         assertThat(page.body().getElementsByClass("footer").text()).contains("Wisdom");
     }
